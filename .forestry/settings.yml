@@ -7,7 +7,6 @@ sections:
 - type: document
   path: f
   label: s
-  match: "**/*"
 - type: heading
   label: Content
 - type: heading
