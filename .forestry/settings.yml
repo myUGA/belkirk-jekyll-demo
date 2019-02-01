@@ -4,10 +4,14 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
-- type: heading
-  label: Top of it
+- type: document
+  path: f
+  label: s
+  match: "**/*"
 - type: heading
   label: Content
+- type: heading
+  label: Top of it
 - type: jekyll-posts
   label: Posts
   create: all
